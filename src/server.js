@@ -8,4 +8,6 @@ app.use(cors);
 app.use(express.json());
 app.use(require("./routes"));
 
-app.listen(process.env.PORT || 3333);
+const server = app.listen(process.env.PORT || 3333);
+
+server.timeout = 60000;
