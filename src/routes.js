@@ -4,6 +4,10 @@ const data = require("./data");
 
 const routes = express.Router();
 
+routes.get("/", (req, res) => {
+  res.send("Backend");
+});
+
 routes.get("/lanches", (req, res) => {
   return res.json(data.lanches);
 });
