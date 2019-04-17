@@ -1,0 +1,14 @@
+{
+  "name": "dextra_backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "zago",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4"
+  }
+}
